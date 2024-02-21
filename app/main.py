@@ -14,7 +14,7 @@ from langchain.prompts.chat import (
     SystemMessagePromptTemplate,
 )
 from .utils.utils import load_env
-from PIL import Image
+# from PIL import Image
 
 load_env()
 
@@ -96,8 +96,8 @@ desease_chain = load_chain(prompt,vectorstore)
 
 def main():
     from . import app_description, app_name
-    image = Image.open('./apps/disease_explainer_chain/app/stethoscope.jpg')
-    st.image(image)
+    # image = Image.open('./apps/disease_explainer_chain/app/stethoscope.jpg')
+    # st.image(image)
     st.title(app_name)
     st.divider()
     st.write(app_description)
