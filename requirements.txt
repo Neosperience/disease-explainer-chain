@@ -1,0 +1,7 @@
+langchain
+openai
+streamlit
+sqlite3
+pandas
+pillow
+pydantic
