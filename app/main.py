@@ -96,7 +96,7 @@ desease_chain = load_chain(prompt,vectorstore)
 
 def main():
     from . import app_description, app_name
-    image = Image.open('./apps/desease_explainer_chain/app/stethoscope.png')
+    image = Image.open('./apps/disease_explainer_chain/app/stethoscope.jpg')
     st.image(image)
     st.title(app_name)
     st.divider()
