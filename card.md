@@ -1,1 +1,1 @@
-This is a demo for a LLM chain for disease explanaition. It's an implementation of LangChain's ConversationalRetrieverChain using OpenAI LLM. The chatbot is capable of answering questions regarding diseases and medical conditions.
+Demo for a disease explainer chatbot. It can answer questions regarding specific disease with short descriptions and medical facts. Disease in the database: diabetes mellitus, hypertension.

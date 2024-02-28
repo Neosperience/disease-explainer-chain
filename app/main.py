@@ -108,6 +108,8 @@ def main():
 
     if "messages" not in st.session_state:
         st.session_state.messages = []
+    else:
+        st.session_state.messages = []
 
     for message in st.session_state.messages:
         if message['role'] == 'assistant':
