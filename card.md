@@ -1,1 +1,1 @@
-Demo for a disease explainer chatbot. It can answer questions regarding specific disease with short descriptions and medical facts. Disease in the database: diabetes mellitus, hypertension.
+Demo for a disease explainer chatbot. It can answer questions regarding specific disease with short descriptions and medical facts. Disease in the database: Charcot disease, Lewy body disease.
