@@ -104,7 +104,8 @@ def generate_response(query,chain):
 session = boto3.Session(region_name="us-east-1")
 temperature = 0.4
 
-embeddings = bedrock_model() #
+embeddings = bedrock_model() 
+vectorstore = vectordb(embeddings)
 prompt = load_prompt()
 desease_chain = load_chain(prompt,vectorstore)
 
