@@ -96,7 +96,7 @@ def load_chain(_prompt_template,_vectorstore):
 
 
 def generate_response(query,chain):
-    response = chain({"question": query})
+    response = chain.invoke({"question": query})
     return response
 
 # aws_access_key_id="..."
