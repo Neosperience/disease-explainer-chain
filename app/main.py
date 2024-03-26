@@ -25,7 +25,7 @@ def openai_model(key):
 
 @st.cache_resource(show_spinner="Loading vectorstore! Please wait.")
 def vectordb(_embeddings):
-    loader = CSVLoader(file_path='./apps/disease_explainer_chain/app/msd.csv',csv_args={'delimiter': ';','quotechar': '"','fieldnames': ['name','document', 'source']},source_column="source")
+    loader = CSVLoader(file_path='./apps/disease_explainer_chain/app/msd-v2.csv',csv_args={'delimiter': ';','quotechar': '"','fieldnames': ['name','document', 'source']},source_column="source")
     documents = loader.load()
     text_splitter = RecursiveCharacterTextSplitter(chunk_size= 500, chunk_overlap=10)
     docs = text_splitter.split_documents(documents)
